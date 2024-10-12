@@ -3,7 +3,14 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <19 20>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
