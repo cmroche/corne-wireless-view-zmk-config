@@ -43,10 +43,10 @@
 
         dvorak {
             bindings = <
-&kp TAB    &kp SQT   &kp COMMA  &kp DOT     &kp P      &kp Y             &kp F            &kp G      &kp C            &kp R  &kp L  &kp SLASH
-&sk LALT   &kp A     &kp O      &kp E       &kp U      &kp I             &kp D            &kp H      &kp T            &kp N  &kp S  &sk RIGHT_ALT
-&sk LCTRL  &kp SEMI  &kp Q      &kp J       &kp K      &kp X             &kp B            &kp M      &kp W            &kp V  &kp Z  &sl 4
-                                &kp LSHIFT  &kp ENTER  &lt 2 LEFT_GUI    &lt 3 BACKSPACE  &kp SPACE  &kp RIGHT_SHIFT
+&kp TAB    &kp SQT   &kp COMMA  &kp DOT     &kp P               &kp Y             &kp F            &kp G      &kp C            &kp R  &kp L  &kp SLASH
+&sk LALT   &kp A     &kp O      &kp E       &kp U               &kp I             &kp D            &kp H      &kp T            &kp N  &kp S  &sk RIGHT_ALT
+&sk LCTRL  &kp SEMI  &kp Q      &kp J       &kp K               &kp X             &kp B            &kp M      &kp W            &kp V  &kp Z  &sl 4
+                                &kp LSHIFT  &mt LEFT_GUI ENTER  &lt 2 LEFT_GUI    &lt 3 BACKSPACE  &kp SPACE  &kp RIGHT_SHIFT
             >;
 
             label = "dvorak";
